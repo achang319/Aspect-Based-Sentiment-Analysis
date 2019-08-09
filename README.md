@@ -1,7 +1,7 @@
 # Aspect-Based-Sentiment-Analysis
 
 ## Training data set 
-   Two .csv training files(data-1_train.csv for restaurant review and data-2_train.csv for computer review)
+   Two .csv training files(computer_train.csv for computer review and restaurant_train.csv for restaurant review)
      The description of each column in each .csv file is as fellows:
      Column A: review sentence id (unique id for a training instance).
      Column B: review sentence
@@ -10,7 +10,7 @@
      Column E: sentiment label
    
 ## Test data set
-   Two .csv test files: one for Data-1 and another for Data-2. Each row is one test instance (just like training data files (Exactly same format!)). But, class labels not provided.
+   Two .csv test files: one for computer_test.csv and restaurant_test.csv. Both are exactly same format as the training files. But, class labels not provided.
 
 ## Implementation
    First, import our training data and test data. Then define two important functions: the first is for preprocessing the text and aspect term in both training and testing data. The other function is to calculate the weights(tf-idf) for the words in order to vectorize the text (after preprocessing). 
