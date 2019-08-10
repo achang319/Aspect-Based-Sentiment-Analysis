@@ -1,6 +1,6 @@
 # Aspect-Based-Sentiment-Analysis
 
-## Training data set 
+## Training data 
    Two .csv training files(computer_train.csv for computer review and restaurant_train.csv for restaurant review)
      The description of each column in each .csv file is as fellows:
      Column A: review sentence id (unique id for a training instance).
@@ -9,7 +9,7 @@
      Column D: aspect term location  [format: start index -- End index]
      Column E: sentiment label
    
-## Test data set
+## Test data
    Two .csv test files: one for computer_test.csv and restaurant_test.csv. Both are exactly same format as the training files. But, class labels not provided.
 
 ## Implementation
